@@ -8,7 +8,7 @@
   	<div class="row">
   		<div class="col-md-6 col-md-offset-3">
   			<h1 style="color:rgba(255, 0, 174, 1);">Send Email</h1>
-  			<form action="/api/send" method="post">
+  			<form action="/api/send" method="post" onsubmit="this.reset()">
 		    	<input class="form-control" type="text" name="recipients" placeholder="Recipients" /><br />
 		    	<input class="form-control" type="text" name="subject" placeholder="Subject" /><br />
 		    	<textarea class="form-control" name="content" placeholder="Content"></textarea><br />
